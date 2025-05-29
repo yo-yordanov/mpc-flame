@@ -1,0 +1,9 @@
+Using statistical security parameter 40
+Gathering input...
+Revealing inputs...
+Input from Party 0: 20
+Input from Party 1: 21
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.315085 seconds 
+Data sent = 20.4933 MB in ~33 rounds (party 0 only; use '-v' for more details)
+Global data sent = 40.9867 MB (all parties)

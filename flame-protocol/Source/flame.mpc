@@ -1,0 +1,10 @@
+n = 7000
+modulus = 2**32
+
+shares_0 = [sint.get_input_from(0) for _ in range(n)]
+shares_1 = [sint.get_input_from(1) for _ in range(n)]
+
+results = [shares_0[i] + shares_1[i] - modulus for i in range(n)]
+
+for i in range(n):
+    print_ln("Reconstructed value %s: %s", i, results[i].reveal())

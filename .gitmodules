@@ -1,0 +1,6 @@
+[submodule "mp-spdz"]
+	path = mp-spdz
+	url = https://github.com/data61/MP-SPDZ
+[submodule "safefl"]
+	path = safefl
+	url = https://github.com/encryptogroup/SAFEFL.git
